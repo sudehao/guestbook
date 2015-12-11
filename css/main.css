@@ -1,0 +1,43 @@
+/*
+整体布局层级样式：
+*/
+/*
+重置CSS样式：
+*/
+body,h1,h2,ul,li{padding:0; margin:0; border:0;}
+ul{list-style:none;}
+a{text-decoration:none; color:#a0a0a0;}
+a:visited{color:#a0a0a0;}
+a:hover{color:#505050;}
+body{color:#000; font-size:12px; font-family:Verdana, Arial, '宋体'; }
+
+/*头部样式：*/
+.header{width:100%; background-color:#EFEFEF; border-bottom:4px solid gray;}
+.headermain{width:900px; height:96px; padding:10px; margin:0 auto;}
+h1{font-size:3em;}
+
+/*主体部分：*/
+.content{width:900px; margin:0 auto; overflow:hidden;}
+.guestcontent{margin-top:15px;}
+.guestcontent h2{font-size:1.4em; border-bottom:1px solid #cccccc;}
+.time{float:right; padding-top:6px; padding-right:20px; color:#888;}
+.guestcontent p{padding:0 15px;}
+.guestform{margin-top:40px;}
+.guestform>span{font-size:1.4em; font-weight:bold; display:block; border-bottom:2px solid gray;}
+
+form{padding:20px 5px; border-left:1px dotted #c0c0c0; border-right:1px dotted #c0c0c0; border-bottom:1px dotted #c0c0c0; overflow:hidden; position:relative;}
+.inputareas{float:left; clear:both;}
+.inputareas label{float:left; width:48px; height:30px; line-height:25px;}
+.inputareas strong{line-height:25px;}
+.button{padding-top:7px; padding-left:335px;}
+.errlayout{margin-bottom:10px;}
+.errormsg{color:red;}
+
+/*测试AD右定位区域：*/
+.test_ad{position:absolute; right:100px; top:100px; width:100px; height:100px; background:#cccccc;}
+
+/*页面底部：*/
+.footer{width:100%; margin-top:20px; border-top:1px solid gray; color:#a0a0a0; background:#EFEFEF;}
+.footercenter{width:900px; padding:10px 0px; margin:0 auto;}
+.footer ul{}
+.footer li{display:inline; padding-right:10px;}
